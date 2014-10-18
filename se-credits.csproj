@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9FDA790C-0597-483F-8401-4E87E110602B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>se_credits</RootNamespace>
+    <AssemblyName>se_credits</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HavokWrapper">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\HavokWrapper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sandbox.Audio">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Audio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sandbox.Common">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sandbox.Common.XmlSerializers">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Common.XmlSerializers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sandbox.Game">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sandbox.Graphics">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Graphics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sandbox.Input">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Input.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SteamSDK">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\SteamSDK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VRage.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRage.Render">
+      <HintPath>D:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Render.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Models\Components\credit_component.blend" />
+    <None Include="res\Models\Components\credit_component.fbx" />
+    <None Include="res\Models\Components\credit_component.mwm" />
+    <None Include="res\Textures\Models\Physical_item\credit_component.pdn" />
+    <None Include="src\Data\BlockCategories.sbc" />
+    <None Include="src\Data\BlueprintClasses.sbc">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="src\Data\Blueprints.sbc">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="src\Data\Components.sbc">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="src\Data\CubeBlocks.sbc" />
+    <None Include="src\Models\Components\credit_component.mwm" />
+    <None Include="src\Textures\GUI\Icons\component\credit_component.dds" />
+    <None Include="src\Textures\Models\Physical_Item\credit_component_de.dds" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="res\Models\Components\assimp32.dll" />
+    <Content Include="res\Models\Components\AssimpNet.dll" />
+    <Content Include="res\Models\Components\credit_component.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="res\Models\Components\MwmBuilder.exe" />
+    <Content Include="res\Models\Components\MwmBuilderReadme.txt" />
+    <Content Include="res\Models\Components\VRage.Common.dll" />
+    <Content Include="res\Models\Components\VRage.Library.dll" />
+    <Content Include="res\Models\Components\VRage.Math.dll" />
+    <Content Include="res\Textures\GUI\Icons\Physical_item\credit_component.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1497 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    
+    <!-- Sell Ore -->
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Stone for 0.1x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\stone_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Iron Ore for 0.5x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\iron_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.5" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CobaltOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Cobalt Ore for 1x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\cobalt_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NickelOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Nickel Ore for 1x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\nickel_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MagnesiumOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Magnesium Ore for 4x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\magnesium_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="4" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SiliconOreToCredit for 2x Credit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Silicon Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\silicon_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SilverOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Silver Ore for 2x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\silver_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Silver" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Gold Ore for 2x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\gold_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Gold" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinumOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Platinum Ore for 4x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\platinum_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="4" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumOreToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Uranium Ore for 2x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\uranium_ore_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- buy ore -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToStone</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Stone for 0.2x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_stone.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.2" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToIronOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Iron Ore for 1x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_iron_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToCobaltOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Cobalt Ore for 2x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_cobalt_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Cobalt" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToNickelOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Nickel Ore for 2x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_nickel_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToMagnesiumOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Magnesium Ore for 8x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_magnesium_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Magnesium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSiliconOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Silicon Ore  for 4x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_silicon_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Component" SubtypeId="Credit" />
+
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSilverOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Silver Ore for 4x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_silver_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Component" SubtypeId="Credit" />
+
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Silver" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToGoldOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Gold Ore for 4x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_gold_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToPlatinumOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Platinum Ore for 8x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_platinum_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Platinum" />
+
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToUraniumOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy 100x Uranium Ore for 4x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_uranium_ore.dds</Icon>
+      <Prerequisites>
+        <Item Amount="8" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Uranium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Sell Ingots -->
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravelToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 100x Gravel for 0.15x Credit</DisplayName>
+      <Icon>Textures\GUI\Icons\gravel_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.15" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Iron Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\iron_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="750" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CobaltIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Cobalt Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\cobalt_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NickelIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Nickel Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\nickel_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MagnesiumIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Magnesium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\magnesium_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SiliconIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Silicon Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\silicon_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SilverIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Silver Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\silver_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Gold Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\gold_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinumIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Platinum Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\platinum_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="250" TypeId="Ore" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UraniumIngotToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Uranium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\uranium_ingot_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="250" TypeId="Ore" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- buy ingots -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToGravel</SubtypeId>
+      </Id>
+      <DisplayName>Buy Stone</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_gravel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToIronIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Iron Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToCobaltIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Cobalt Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_cobalt_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToNickelIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Nickel Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_nickel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToMagnesiumIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Magnesium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_magnesium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSiliconIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Silicon Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_silicon_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSilverIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Silver Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_silver_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToGoldIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Gold Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_gold_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToPlatinumIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Platinum Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_platinum_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToUraniumIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Uranium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_uranium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <!-- Sell Components -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BulletproofGlassToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Bulletproof Glass</DisplayName>
+      <Icon>Textures\GUI\Icons\glass_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ComputerToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\computer_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ConstructionComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Construction Components</DisplayName>
+      <Icon>Textures\GUI\Icons\construction_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DetectorComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Detector Components</DisplayName>
+      <Icon>Textures\GUI\Icons\detector_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Detector" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DisplayToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Displays</DisplayName>
+      <Icon>Textures\GUI\Icons\display_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Display" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ExplosivesToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Explosives</DisplayName>
+      <Icon>Textures\GUI\Icons\explosive_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Explosives" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GirderToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Girders</DisplayName>
+      <Icon>Textures\GUI\Icons\girder_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Girder" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravityGeneratorComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Gravity Generator Components</DisplayName>
+      <Icon>Textures\GUI\Icons\gravity_generator_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>InteriorPlateToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Interior Plates</DisplayName>
+      <Icon>Textures\GUI\Icons\interior_plate_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LargeTubeToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Large Steel Tubes</DisplayName>
+      <Icon>Textures\GUI\Icons\large_tube_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+ <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MedicalComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Medical Components</DisplayName>
+      <Icon>Textures\GUI\Icons\medical_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Medical" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MetalGridToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Metal Grids</DisplayName>
+      <Icon>Textures\GUI\Icons\metal_grid_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Missile200mmToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 200mm missile containers</DisplayName>
+      <Icon>Textures\GUI\Icons\missile_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MotorToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Motors</DisplayName>
+      <Icon>Textures\GUI\Icons\motor_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_25x184mmToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 25x184mm NATO ammo containers</DisplayName>
+      <Icon>Textures\GUI\Icons\nato_container_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NATO_5p56x45mmMagazineToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell 5.56x45mm NATO magazines</DisplayName>
+      <Icon>Textures\GUI\Icons\magazine_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PowerCellToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Power Cells</DisplayName>
+      <Icon>Textures\GUI\Icons\power_cell_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RadioCommunicationComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Radio-communication Components</DisplayName>
+      <Icon>Textures\GUI\Icons\radio_communication_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ReactorComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Reactor Components</DisplayName>
+      <Icon>Textures\GUI\Icons\reactor_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Reactor" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SmallTubeToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Small Steel Tubes</DisplayName>
+      <Icon>Textures\GUI\Icons\small_tube_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SolarCellToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Solar Cells</DisplayName>
+      <Icon>Textures\GUI\Icons\solar_cell_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelPlateToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Steel Plates</DisplayName>
+      <Icon>Textures\GUI\Icons\steel_plate_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThrusterComponentToCredit</SubtypeId>
+      </Id>
+      <DisplayName>Sell Thruster Components</DisplayName>
+      <Icon>Textures\GUI\Icons\thruster_component_to_credit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Thrust" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <!-- buy components -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToBulletproofGlass</SubtypeId>
+      </Id>
+      <DisplayName>Buy Bulletproof Glass</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_glass.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToComputer</SubtypeId>
+      </Id>
+      <DisplayName>Buy Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_computer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToConstructionComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Construction Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_construction_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToDetectorComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Detector Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_detector_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Detector" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToDisplay</SubtypeId>
+      </Id>
+      <DisplayName>Buy Displays</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_display.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Display" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToExplosives</SubtypeId>
+      </Id>
+      <DisplayName>Buy Explosives</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_explosive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Explosives" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToGirder</SubtypeId>
+      </Id>
+      <DisplayName>Buy Girders</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_girder.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Girder" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToGravityGeneratorComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Gravity Generator Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_gravity_generator_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToInteriorPlate</SubtypeId>
+      </Id>
+      <DisplayName>Buy Interior Plates</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_interior_plate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToLargeTube</SubtypeId>
+      </Id>
+      <DisplayName>Buy Large Steel Tubes</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_large_tube.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToMedicalComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Medical Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_medical_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Medical" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToMetalGrid</SubtypeId>
+      </Id>
+      <DisplayName>Buy Metal Grids</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_metal_grid.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToMissile200mm</SubtypeId>
+      </Id>
+      <DisplayName>Buy 200mm missile containers</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_missile.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToMotor</SubtypeId>
+      </Id>
+      <DisplayName>Buy Motors</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_motor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToNATO_25x184mm</SubtypeId>
+      </Id>
+      <DisplayName>Buy 25x184mm NATO ammo containers</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_nato_container.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToNATO_5p56x45mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>Buy 5.56x45mm NATO magazines</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_magazine.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Buy Power Cells</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_power_cell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToRadioCommunicationComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Radio-communication Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_radio_communication_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToReactorComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Reactor Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_reactor_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Reactor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSmallTube</SubtypeId>
+      </Id>
+      <DisplayName>Sell Small Steel Tubes</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_small_tube.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSolarCell</SubtypeId>
+      </Id>
+      <DisplayName>Sell Solar Cells</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_solar_cell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToSteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>Buy Steel Plates</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_steel_plate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CreditToThrusterComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Thruster Components</DisplayName>
+      <Icon>Textures\GUI\Icons\credit_to_thruster_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="Thrust" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Receipt" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+
+</Definitions>

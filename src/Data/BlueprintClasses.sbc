@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>SellOre</SubtypeId>
+      </Id>
+      <DisplayName>Sell Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\sell_ore.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\sell_ore_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BuyOre</SubtypeId>
+      </Id>
+      <DisplayName>Buy Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\buy_ore.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\buy_ore_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>SellComponent</SubtypeId>
+      </Id>
+      <DisplayName>Sell Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\sell_component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\sell_component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BuyComponent</SubtypeId>
+      </Id>
+      <DisplayName>Buy Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\buy_component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\buy_component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    
+  <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>BuyIngot</SubtypeId>
+      </Id>
+      <DisplayName>Buy Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\buy_ingot.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\buy_ingot_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    
+   <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>SellIngot</SubtypeId>
+      </Id>
+      <DisplayName>Sell Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\sell_ingot.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\sell_ingot_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToCobaltOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToGoldOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToIronOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToNickelOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToMagnesiumOre" />   
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToPlatinumOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToSiliconOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToSilverOre" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToStone" />
+    <Entry Class="BuyOre" BlueprintSubtypeId="CreditToUraniumOre" />
+   
+
+    <Entry Class="SellOre" BlueprintSubtypeId="CobaltOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="GoldOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="IronOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="NickelOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="MagnesiumOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="PlatinumOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="SiliconOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="SilverOreToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="StoneToCredit" />
+    <Entry Class="SellOre" BlueprintSubtypeId="UraniumOreToCredit" />
+   
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToCobaltIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToGoldIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToIronIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToNickelIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToMagnesiumIngot" />   
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToPlatinumIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToSiliconIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToSilverIngot" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToGravel" />
+    <Entry Class="BuyIngot" BlueprintSubtypeId="CreditToUraniumIngot" />
+   
+
+    <Entry Class="SellIngot" BlueprintSubtypeId="CobaltIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="GoldIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="IronIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="NickelIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="MagnesiumIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="PlatinumIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="SiliconIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="SilverIngotToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="GravelToCredit" />
+    <Entry Class="SellIngot" BlueprintSubtypeId="UraniumIngotToCredit" />
+    
+    
+    <Entry Class="SellComponent" BlueprintSubtypeId="BulletproofGlassToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="ComputerToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="ConstructionComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="DetectorComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="DisplayToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="ExplosivesToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="MedicalComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="GirderToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="GravityGeneratorComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="InteriorPlateToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="LargeTubeToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="MedicalComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="MetalGridToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="Missile200mmToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="MotorToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="NATO_25x184mmToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="NATO_5p56x45mmMagazineToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="PowerCellToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="RadioCommunicationComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="ReactorComponentToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="SmallTubeToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="SolarCellToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="SteelPlateToCredit" />
+    <Entry Class="SellComponent" BlueprintSubtypeId="ThrusterComponentToCredit" />
+    
+    
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToBulletproofGlass" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToComputer" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToConstructionComponent" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToDetectorComponent" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToDisplay" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToExplosives" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToGirder" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToGravityGeneratorComponent" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToInteriorPlate" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToLargeTube" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToMedicalComponent" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToMetalGrid" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToMissile200mm" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToMotor" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToNATO_25x184mm" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToNATO_5p56x45mmMagazine" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToPowerCell" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToRadioCommunicationComponent" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToReactorComponent" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToSmallTube" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToSolarCell" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToSteelPlate" />
+    <Entry Class="BuyComponent" BlueprintSubtypeId="CreditToThrusterComponent" />
+
+    
+  </BlueprintClassEntries>
+
+</Definitions>
+
